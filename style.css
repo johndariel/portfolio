@@ -25,8 +25,8 @@ html{
 .headline{
   font-size: 10rem;
   color: #000;
-  font-weight: 100;
-  line-height: .4;
+ 
+ 
 }
 
 .headline::first-letter{
@@ -337,16 +337,15 @@ html{
 }
 
 .headline-1{
-  font-size: 7rem;
+  font-size: 5rem;
   color: #ffff;
-  font-weight: 100px;
-  line-height: .4;
+  
 }
 
 
 
 .sub-headline-1{
-  font-size: 4rem;
+  font-size: 3rem;
   padding-top: 20px;
   color: #ffff;
 }
