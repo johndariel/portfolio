@@ -15,16 +15,20 @@
 
 		<!-- Font Awesome -->
 		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+
+		<!-- Google Fonts -->
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
 	</head>
 	<body>
 
 		<!-- SIDE NAV START HERE-->
 		<div id="mySidenav" class="sidenav">
 		  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-		  <a href="#">About</a>
-		  <a href="#">Services</a>
-		  <a href="#">Clients</a>
-		  <a href="#">Contact</a>
+		  <a href="#main">Home</a>
+		  <a href="#about">About me</a>
+		  <a href="#container-overlay">Portfolio</a>
+		  <a href="#container-contact">Contact</a>
 		</div>
 		<!-- SIDE NAV END HERE-->
 
@@ -40,15 +44,17 @@
 
 			  	<img src="./images/hero.jpg" alt="" class="parallax img-fluid">
 			  	<div class="text-wrapper row d-flex flex-column">
-		  			<div class="p-3 m-3 col-12 col-sm-12 ">
-		  				<h1 class="headline-1">HELLO! I AM JD</h1>
+		  			<div class="p-3 m-3 col-12 col-sm-12 col-md-12 ">
+		  				<h1 class="headline">HELLO! I`m JD</h1>
 		  			</div>
-		  			<div class="p-3 m-3 col-12 col-sm-12 ">
-		  				<h2 class="sub-headline">A web developer</h2>
+		  			<div class="p-3 m-3 col-12 col-sm-12  col-md-12 ">
+		  				<h2 class="sub-headline">web developer</h2>
 		  			</div>
-		  			<div class="p-3 m-3 col-12 col-sm-12 ">
-		  				<a href="#portfolio" class="button">See my portfolio</a>
+		  			<div class="p-3 m-3 col-12 col-sm-12 col-md-12  ">
+		  				<a href="#container-overlay" class="button">See my portfolio</a>
+		  				<a href="#container-overlay" class="button">download cv</a>
 		  			</div>
+
 		  			
 		  		</div>
 			  </section>
@@ -70,18 +76,14 @@
 		 				
 		 					<h6 class="about-title">Hello! I am JD</h6>
 		 					<h6 class="about-title"><strong>ABOUT ME</strong></h6>
-		 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-		 					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-		 					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-		 					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-		 					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-		 					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-		 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-		 					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-		 					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-		 					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-		 					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-		 					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		 					<p>Hello! I'm John Dariel C. Domdom. You can call me JD. I am a Bachelor of Science in Information System graduate at Immaculate Conception I-College of Arts and Technology, located in Santa Maria, Bulacan.</p>
+
+							<p>Aspiring to be a Web Developer and Software Engineer, I am currently training with Zuitt Bootcamp to be better or even one of the best on the new batches of programmers.</p>
+
+							<p>I personally like taking challenges and learning new things that will help me hone my skills and abilities. I always make sure that I do my tasks right and pleasing. Most importantly, I value time and effort.</p>
+
+							<p>My personal, non-career related interests are my love for anime, reading manga, and watching movies and series.</p>
+		 					
 		 				
 		 			</div>
 		 			
@@ -98,18 +100,19 @@
 		 			<div class="box-service col-12 col-sm-12 col-md-3 col-lg-3 ">
 		 				<i id="service-icon" class=" bi bi-code-slash"></i>
 		 				<h6 class="service-title">CLEAN CODE</h6>
-		 				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium ipsam veniam assumenda debitis a, doloribus voluptate tempore sint nihil incidunt excepturi saepe quis, delectus ullam neque, deserunt veritatis, fuga? Quos.</p>
+		 				<p class="px-5">Clean code is a code that is easy to understand and easy to change. Using clean code will greatly help future clients on maintaining their system.</p>
+
 		 			</div>
 		 			<div class="box-service col-12 col-sm-12 col-md-3 col-lg-3">
 		 				<i id="service-icon" class="bi bi-file-code-fill"></i>
 		 				<h6 class="service-title">Front-end Developer</h6>
-		 				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium ipsam veniam assumenda debitis a, doloribus voluptate tempore sint nihil incidunt excepturi saepe quis, delectus ullam neque, deserunt veritatis, fuga? Quos.</p>
+		 				<p>In order to meet the clients' wants and needs, as a web developer, I opt for clean visuals that still meet the preferences and the brand guidlines that clients will provide. This will greatly help the users of the client's system to easily understand and locate the services that they offer.</p>
 		 			</div>
-		 			<div class="box-service col-12 col-sm-12 col-md-3 col-lg-3">
+		 			<!-- <div class="box-service col-12 col-sm-12 col-md-3 col-lg-3">
 		 				<i id="service-icon" class="bi bi-gear"></i>
-		 				<h6 class="service-title">CODING</h6>
+		 				<h6 class="service-title">Back-end Developer</h6>
 		 				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium ipsam veniam assumenda debitis a, doloribus voluptate tempore sint nihil incidunt excepturi saepe quis, delectus ullam neque, deserunt veritatis, fuga? Quos.</p>
-		 			</div>
+		 			</div> -->
 		 		</div>
 		 	</div>
 		 </section>
@@ -124,14 +127,13 @@
 		  	    <ul>
 		  	      <li>
 		  	        <div class="timeline-content">
-		  	          <h3 class="date">20th may, 2010</h3>
-		  	          <h1>Heading 1</h1>
-		  	          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur tempora ab laudantium voluptatibus aut eos placeat laborum, quibusdam exercitationem labore.</p>
+		  	          <h3 class="date">July 2020 - September 2020</h3>
+		  	          <h1>Programming Internship</h1>
+		  	          <h6>Immaculate Conception I-College of Arts and Technology</h6>
+		  	          <p>I contributed an IT solution to improve alumni tracking system of the institution. I am able to work independently or with a team in order to solve encountered issues and also able to prioritize and organize task in a timely, efficient manner. </p>
 		  	        </div>
 		  	      </li>
-		  	      
-		  	      
-		  	      
+		  	     
 		  	    </ul>
 		  	  </div>
 		  	</div>
@@ -299,19 +301,19 @@
 
 
 		  <!-- HIRE ME START HERE -->
-		  <div id="container" >
+		  <div  class="container-fluid-1">
 		  	<section class="hero-1">
 
 		  		<img src="./images/hire.jpg" alt="" class="parallax img-fluid">
 		  		<div class="text-wrapper-1 row d-flex flex-column">
-		  			<div class="p-3 m-3 col-12 col-sm-12 ">
-		  				<h1 class="headline-1">HELLO! I AM JD</h1>
+		  			<div class="p-3 m-3 col-12 col-sm-12  col-md-4  col-lg-12">
+		  				<h1 class="headline-1">DO YOU HAVE AN INTERESTING PROJECT?</h1>
 		  			</div>
-		  			<div class="p-3 m-3 col-12 col-sm-12 ">
-		  				<h2 class="sub-headline-1">A web developer</h2>
+		  			<div class="p-3 m-3 col-12 col-sm-12 col-md-4 col-lg-12 ">
+		  				<h2 class="sub-headline-1">Feel free to contact me for consultations or inquiries!</h2>
 		  			</div>
-		  			<div class="p-3 m-3 col-12 col-sm-12 ">
-		  				<a href="#portfolio" class="button-1">HIRE ME</a>
+		  			<div class="p-3 m-3 col-12 col-sm-12  col-md-4 col-lg-12 ">
+		  				<a href="#container-contact" class="button-1">HIRE ME</a>
 		  			</div>
 		  			
 		  			
@@ -322,12 +324,138 @@
 		  </div>
 		  	
 		  
+		  	
+		  
 		  
 		  <!-- HIRE ME END HERE -->
 		 
-		  	
-		  
+		  <!-- MY WORKS START HERE -->
+		  <div id="container-overlay" class="container-fluid" >
+		  	<h1 class="title-h1 font-weight-bold">MY PROJECT</h1>
+		  	<div class="row row-1 d-flex justify-content-center ">
+		  		<div class="col-12 col-sm-4 col-md-4 col-lg-3  d-flex justify-content-center  ">
+		  			  <div  class="card image-card" >
+		  			      <img class="card-img-top " src="./images/image-overlay1.jpg" alt="Card image" style="width:100%">
+			  			      <div class="card-body">
+				  			        <h4 class="card-title">John ONE</h4>
+				  			        <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
+				  			        <a href="https://zuitt.co/" target="_blank" class="btn btn-secondary">See Profile</a>
+			  			      </div>
+		  			   </div>
+		  		</div>
+		  		<div class="col-12 col-sm-4 col-md-4 col-lg-3  d-flex justify-content-center ">
+		  			  <div class="card image-card" >
+		  			      <img class="card-img-top" src="./images/image-overlay2.jpg" alt="Card image" style="width:100%">
+			  			      <div class="card-body">
+				  			        <h4 class="card-title">John TWO</h4>
+				  			        <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
+				  			        <a href="https://getbootstrap.com/" target="_blank" class="btn btn-secondary">See Profile</a>
+			  			      </div>
+		  			   </div>
+		  		</div>
+		  		<div class="col-12 col-sm-4 col-md-4  col-lg-3  d-flex justify-content-center">
+		  			<div class="card image-card" >
+		  			      <img class="card-img-top" src="./images/image-overlay3.jpg" alt="Card image" style="width:100%">
+			  			      <div class="card-body">
+				  			        <h4 class="card-title">John THREE</h4>
+				  			        <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
+				  			        <a href="https://www.w3schools.com/" target="_blank" class="btn btn-secondary">See Profile</a>
+			  			      </div>
+		  			   </div>
+		  		</div>
+		  	</div>
+		  </div>
+		  <!-- MY WORKS END HERE -->
 
+		  <!-- CONTACT ME START HERE -->
+		  <div id="container-contact" class="container-fluid">
+		  	<div class="row">
+		  		<div class="col">
+		  			
+		  		</div>
+		  	</div>
+		  </div>
+		  <!-- CONTACT ME START HERE -->
+		  <div id="contact-me" class="container-fluid">
+		  	<div class="row">
+		  		<div class="col">
+		  			<h1 class="title-contact font-weight-bold">CONTACT ME</h1>
+		  			<p class="text-p text-center">Please fill the form below. I will contact you as soon as possible</p>
+		  		</div>
+		  	</div>
+		  	<div class="row d-flex justify-content-center">
+		  		<div class="col-12 col-sm-12 col-md-4 col-lg-4">
+		  			<form>
+		  			  <div class="form-group">
+		  			    <label for="inputName"></label>
+		  			    <input type="text" class="form-control "  id="inputName" aria-describedby="emailHelp" placeholder="Your name" required="">
+		  			    
+		  			  </div>
+		  			  <div class="form-group">
+		  			    <label for="inputEmail"></label>
+		  			    <input type="email" class="form-control  "  id="inputEmail" placeholder="Email" required="">
+		  			  </div>
+		  			  <div class="form-group">
+		  			    <label for="inputSubject"></label>
+		  			    <input type="text" class="form-control "  id="inputSubject" placeholder="Subject" required="">
+		  			  </div>
+		  			  
+		  			  
+		  			 
+		  			</form>
+		  		</div>
+		  		<div class="col-12 col-sm-12 col-md-4 col-lg-4">
+		  			<form>
+		  				<div class="form-group">
+		  				    <label for="inputTextarea"></label>
+		  				    <textarea class="form-control" required="" id="inputTextarea" placeholder="Your Message" rows="5"></textarea>
+		  				  </div>
+		  			</form>
+		  		</div>
+		  	</div>
+
+		  	<div id="contact-button" class="row">
+		  		  	
+		  		<div class="pt-5 col-12 col-sm-12 col-md-12 d-flex justify-content-center ">
+		  			 <button type="submit" class="button-contact">SEND MESSAGE</button>
+		  		</div>
+
+		  	</div>
+		  </div>
+		  <!-- CONTACT ME END HERE -->
+
+		  <!-- FOOTER START HERE-->
+		  <footer >
+		  	<div class="container-fluid">
+		  		<div class="row d-flex justify-content-center">
+			  		<div class="col-12 col-sm-12 col-md-4 d-flex justify-content-center"">
+			  			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7715.115988273467!2d120.95410817623144!3d14.793908981919685!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397ad93ef8a7df5%3A0xdbb2d81644f1e746!2sMahabang%20Parang%2C%20Santa%20Maria%2C%20Bulacan!5e0!3m2!1sen!2sph!4v1624007061531!5m2!1sen!2sph" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+			  		</div>
+			  		<div class="col-12 col-sm-12 col-md-4 d-flex justify-content-start">
+			  			<div>
+				  			<p class="content"><i class="bi bi-geo-alt-fill"></i>Mahabang Parang, Santa Maria Bulacan</p>
+				  			<p class="content"><i class="bi bi-telephone-fill"></i>0977-732-6747</p>
+				  			<p class="content"><i class="bi bi-envelope-fill"></i>johndarieldomdom@gmail.com</p>
+			  			</div>
+			  			
+			  		</div>
+		  	</div>
+		  	</div>
+		  	
+		  </footer>
+		  <div id="footer-1" class="container-fluid ">
+		  	<div class="row">
+		  		<div class="pl-5 col-12 col-sm-12 col-md-6">
+		  			 © 2021 JD | Reserved
+		  		</div>
+		  		<div class="pr-5 col-12 col-sm-12 col-md-6 d-flex justify-content-end">
+		  			<a id="footer-icon" href="">
+		  				<i class="bi bi-facebook icon"></i>
+		  			</a>
+		  		</div>
+		  	</div>
+		  </div>
+		   <!-- FOOTER END HERE-->
 
 
 		<!-- JavaScript -->
@@ -358,12 +486,18 @@
 		<!-- PARALLAX JAVASCRIPT START HERE -->
 			<script type="text/javascript">
 				window.addEventListener('scroll' , function (){
-					const parallax = document.querySelector('.parallax');
+					const parallax = document.querySelector('.parallax' );
 					let scrollPosition = window.pageYOffset;
 
 					parallax.style.transform = 'translateY(' + scrollPosition *.5 + 'px)';
+
+					
 				});
 			</script>
+
+			
+			
+
 		<!-- PARALLAX JAVASCRIPT END HERE -->
 	</body>
 </html>

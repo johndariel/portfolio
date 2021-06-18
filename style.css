@@ -2,6 +2,8 @@
   padding:  0px;
   margin: 0px;
   box-sizing: border-box ;
+
+  font-family: 'Montserrat', sans-serif;
 }
 /*PARALLAX EFFECT START HERE*/
 html{
@@ -47,6 +49,7 @@ html{
   z-index: -1;
 }
 
+
 /*PARALLAX EFFECT END HERE*/
 
 /*BUTTON1*/
@@ -86,8 +89,9 @@ html{
 /*ABOUT START*/
 .container-fluid{
   background-color: #fff;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+
  
 }
 
@@ -98,12 +102,16 @@ html{
   font-size: 30px;
   text-align: center;
   border: none;
+
 }
+
 /*ABOUT END*/
 
 /*SERVICES I OFFER START HERE*/
 #container-services {
   background-color: #F4F4F4;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 .title-h1 {
   text-align: center;
@@ -115,8 +123,12 @@ html{
   font-size: 20px;
   
   padding: 10px;
-  border-bottom: 3px solid #666666 ;
+ 
 }
+.service-title{
+   border-bottom: 3px solid #666666 ;
+}
+
 #service-row h6{
  
   text-align: center;
@@ -184,6 +196,7 @@ html{
   padding: 16px;
 }
 
+
 /*MY EXPERIENCE START HERE*/
 #container-experience {
   width: 100%;
@@ -192,6 +205,8 @@ html{
   justify-content: center;
   padding: 50px 0;
   background-color: #FFFFFF;
+  padding-top: 150px;
+  padding-bottom: 150px;
 }
 .timeline {
   width: 80%;
@@ -303,8 +318,7 @@ html{
 
 
 /*HIRE ME PARALLAX EFFECT START HERE*/
-
-.hero-1 {
+.hero-1{
   width: 100%;
   height: 100vh;
   display: flex;
@@ -313,6 +327,7 @@ html{
   height: 500px;
   position: relative;
 }
+
 #languages-background{
   background-color: #F4F4F4;
 }
@@ -322,31 +337,22 @@ html{
 }
 
 .headline-1{
-  font-size: 10rem;
-  color: #000;
-  font-weight: 100;
+  font-size: 7rem;
+  color: #ffff;
+  font-weight: 100px;
   line-height: .4;
 }
 
-.headline-1::first-letter{
-  font-size: 15rem;
-}
+
 
 .sub-headline-1{
   font-size: 4rem;
   padding-top: 20px;
-  color: #000;
+  color: #ffff;
 }
 
-.parallax-1 {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  z-index: -1;
-}
+
+
 
 .button-1{
   border: 1px solid black ;
@@ -382,3 +388,78 @@ html{
   color: #212529;
 }
 /*CAROUSEL END HERE HERE*/
+
+
+/*CARD IMAGE START HERE*/
+.image-card {
+  border: 1px solid gray;
+  width: 300px;
+}
+/*CARD IMAGE END HERE HERE*/
+
+/*CONTACT FORM START HERE*/
+#contact-me {
+  background-color: #333333;
+  color: #ffff;
+}
+.title-contact{
+  text-align: center;
+  font-size: 4rem;
+  line-height: .4;
+  padding-bottom: 20px;
+
+}
+.text-p{
+  padding-top: 0px;
+  font-size: 20px;
+}
+.form-control {
+  background-color: #333333;
+  height: 50px;
+}
+textarea[placeholder="Your Message"]{
+  font-size: 20px;
+}
+input[placeholder="Your name"]{
+  font-size: 20px;
+}
+input[placeholder="Email"]{
+  font-size: 20px;
+}
+input[placeholder="Subject"]{
+  font-size: 20px;
+}
+
+.button-contact{
+  border: 1px solid #fff ;
+  padding: 10px 20px 10px 20px;
+  display: inline-block;
+  font-size: 20px;
+  background-color: #333333;
+  color: #fff;
+  
+
+}
+.button-contact:hover{
+  background-color: #fff;
+  color: #333333;
+  text-decoration: none;
+  border: 1px solid #fff;
+}
+/*CONTACT FORM END HERE*/
+
+#footer-1{
+  background-color: #111111;
+  color: #ffff;
+  font-size: 20px;
+  padding: 40px;
+}
+.icon{
+
+  color: #fff;
+  
+  text-decoration: none; 
+}
+.content {
+  font-size: 25px;
+}
