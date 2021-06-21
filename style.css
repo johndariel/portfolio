@@ -98,6 +98,11 @@ html{
 .text-wrap p{
   font-size: 20px;
 }
+
+#about{
+  transition: margin-left .5s;
+  padding: 16px;
+}
 .about-title{
   font-size: 30px;
   text-align: center;
@@ -108,6 +113,10 @@ html{
 /*ABOUT END*/
 
 /*SERVICES I OFFER START HERE*/
+#service{
+  transition: margin-left .5s;
+  padding: 16px;
+}
 #container-services {
   background-color: #F4F4F4;
   padding-top: 200px;
@@ -330,6 +339,9 @@ html{
 
 #languages-background{
   background-color: #F4F4F4;
+  
+  transition: margin-left .5s;
+  padding: 16px;
 }
 
 .text-wrapper-1{
@@ -464,6 +476,3 @@ input[placeholder="Subject"]{
 }
 
 
-@media (min-width:  500px){
-  
-}
