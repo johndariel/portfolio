@@ -2,20 +2,18 @@
   padding:  0px;
   margin: 0px;
   box-sizing: border-box ;
-
+  
   font-family: 'Montserrat', sans-serif;
 }
 /*PARALLAX EFFECT START HERE*/
-html{
-  font-size: 10px;
-}
+
 .hero {
   width: 100%;
   height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
-  position: relative;
+  
 }
 
 .text-wrapper{
@@ -23,7 +21,7 @@ html{
 }
 
 .headline{
-  font-size: 10rem;
+  font-size: 8rem;
   color: #000;
  
  
@@ -69,10 +67,12 @@ html{
 /*OPEN NAV BAR END HERE*/
 
 /*BUTTON1 START HERE*/
+#heroButton{
+  text-align:center;
+}
 .button{
   border: 1px solid black ;
   padding: 10px 20px 10px 20px;
-  display: inline-block;
   font-size: 20px;
   background-color: #000;
   color: #fff;
@@ -89,19 +89,23 @@ html{
 /*ABOUT START*/
 .container-fluid{
   background-color: #fff;
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 
  
 }
 
-.text-wrap p{
+#text-wrap1 p{
   font-size: 20px;
 }
+#text-wrap1 h6{
+  text-align: center;
+}
 
-#about{
+
+/*#about{
   transition: margin-left .5s;
-  padding: 16px;
+  padding: 16px;*/
 }
 .about-title{
   font-size: 30px;
@@ -115,12 +119,13 @@ html{
 /*SERVICES I OFFER START HERE*/
 #service{
   transition: margin-left .5s;
-  padding: 16px;
+ 
 }
 #container-services {
   background-color: #F4F4F4;
-  padding-top: 200px;
-  padding-bottom: 200px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-top: 0px;
 }
 .title-h1 {
   text-align: center;
@@ -214,8 +219,8 @@ html{
   justify-content: center;
   padding: 50px 0;
   background-color: #FFFFFF;
-  padding-top: 150px;
-  padding-bottom: 150px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 .timeline {
   width: 80%;
@@ -349,7 +354,7 @@ html{
 }
 
 .headline-1{
-  font-size: 5rem;
+  font-size: 3rem;
   color: #ffff;
   
 }
@@ -357,7 +362,7 @@ html{
 
 
 .sub-headline-1{
-  font-size: 3rem;
+  font-size: 2rem;
   padding-top: 20px;
   color: #ffff;
 }
@@ -475,4 +480,163 @@ input[placeholder="Subject"]{
   font-size: 25px;
 }
 
+@media (max-width: 320px){
+  
+  .hero{
+   width: 100%;
+  }
+  
+  .headline{
+    font-size: 2rem;
+    color: #000;
+  }
+  .headline::first-letter{
+    font-size: 3rem;
+  }
+  .sub-headline{
+    font-size:2rem;
+  }
+  .content{
+    font-size: 17px;
+  }
+  .title-contact{
+    font-size: 2rem;
+  }
+  #heroButton a{
+    display:block;
+    margin:10px;
+  }
+  #text-wrap1 p{
+    
+     font-size:1.2rem;
+    display:block;
+    text-align:justify;
+  }
+  #box-service p{
+    text-align:justify;
+  }
+
+}
+@media (max-width: 375px){
+  
+  .hero{
+   width: 100%;
+  }
+  
+  .headline{
+    font-size: 2rem;
+    color: #000;
+  }
+  .headline::first-letter{
+    font-size: 3rem;
+  }
+  .sub-headline{
+    font-size:2rem;
+  }
+  .content{
+    font-size: 17px;
+  }
+  .title-contact{
+    font-size: 3rem;
+  }
+  #heroButton a{
+    display:block;
+    margin:10px;
+  }
+  #text-wrap1 p{
+     width:100%;
+     font-size:1.2rem;
+    display:block;
+    text-align:justify;
+  }
+  #box-service p{
+    text-align:justify;
+  }
+
+}
+@media (max-width: 425px){
+  
+  .hero{
+   width: 100%;
+  }
+  
+  .headline{
+    font-size: 2rem;
+    color: #000;
+  }
+  .headline::first-letter{
+    font-size: 3rem;
+  }
+  .sub-headline{
+    font-size:2rem;
+  }
+  .content{
+    font-size: 17px;
+  }
+  .title-contact{
+    font-size: 3rem;
+  }
+  /*#heroButton a{
+    display:block;
+    margin:10px;
+  }*/
+  #customize-col{
+    text-align:center;
+    padding-right:50px;
+  }
+  #text-wrap1 p{
+     width:100%;
+     font-size:1.2rem;
+    display:block;
+    text-align:justify;
+  }
+  #box-service p{
+    text-align:justify;
+  }
+
+}
+@media (min-width: 768px){
+
+  .hero{
+   width: 100%;
+  }
+  
+  .headline{
+    font-size: 5rem;
+    color: #000;
+  }
+  .headline::first-letter{
+    font-size: 6rem;
+  }
+  .sub-headline{
+    font-size:3rem;
+  }
+  
+  .text-wrapper-1 h1{
+    display:inline-block;
+    width:100vw;
+    font-size:30px;
+    text-align:center;
+  }
+  .text-wrapper-1 h2{
+    display:inline-block;
+    width:100vw;
+    font-size:30px;
+    text-align:center;
+  }
+  #button-text {
+   justify-content: center;
+  }
+
+  #text-wrap1 p{
+     width:100%;
+     font-size:1.2rem;
+    display:block;
+    text-align:justify;
+  }
+  #box-service p{
+    text-align:justify;
+  }
+
+}
 
